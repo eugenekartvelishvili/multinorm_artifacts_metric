@@ -1,0 +1,16 @@
+﻿group,metric,value,comment
+Deterministic,Answer nonempty,1.000,Доля непустых ответов
+Deterministic,Doc match,0.944,Попадание в ожидаемый документ
+Deterministic,Section match,0.394,Попадание в ожидаемый раздел
+Deterministic,Key point coverage,0.513,Покрытие ключевых пунктов ответа
+Deterministic,Source count,0.877,Достаточность числа источников
+Deterministic,Timing score,0.949,Нормированная скорость ответа
+Deterministic,Main score,0.704,Основная агрегированная метрика
+LLM judge,Label score,0.500,Средняя качественная оценка судьи
+LLM judge,Relevance,0.500,Насколько ответ релевантен вопросу
+LLM judge,Completeness,0.500,Насколько ответ полный
+LLM judge,Groundedness,1.000,Насколько ответ опирается на контекст
+LLM judge,Doc alignment,1.000,Соответствие ответа найденному документу
+LLM judge,Overall,0.750,Общая качественная оценка судьи
+Timing,Avg total time,8.579,"Среднее время ответа, сек"
+Meta,Count,54,Число оценённых вопросов
